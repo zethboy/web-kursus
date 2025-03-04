@@ -1,8 +1,9 @@
 import {Container, Row, Col} from "react-bootstrap";
 import HeroImg from "../assets/img/hero.png";
 import { kelasTerbaru, dataSwiper} from "../data/index"
+import FaqComponent from "../components/FaqComponent";
 
-import {Navigate, useNavigate} from "react-router-dom"
+import { useNavigate} from "react-router-dom"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -125,6 +126,10 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
+
+      {/* FAQ */}
+      <FaqComponent/>
+
     </div>
   )
 }
