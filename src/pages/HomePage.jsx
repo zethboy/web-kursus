@@ -110,7 +110,7 @@ const HomePage = () => {
             className="mySwiper"
           >
             {dataSwiper.map((data)=> {
-              return <SwiperSlide key={data.id} className="shadow -sm">
+              return <SwiperSlide key={data.id} className="shadow-sm">
                 <p className="desc">{data.desc}</p>
                 <div className="people">
                   <img src={data.image} alt="" />
