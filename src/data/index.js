@@ -91,7 +91,7 @@ export const semuaKelas = [
     title: "Mastering Logo with Adobe Illustrator",
     price: "Rp. 420.000",
     buy: "Beli Kelas",
-    delay: "",
+    delay: "300",
   },
   {
     id: 5,
@@ -104,7 +104,7 @@ export const semuaKelas = [
     title: "3D Modelling for Beginner with 3D Blender",
     price: "Rp. 380.000",
     buy: "Beli Kelas",
-    delay: "300",
+    delay: "600",
   },
   {
     id: 6,
@@ -117,7 +117,7 @@ export const semuaKelas = [
     title: "Mastering Icon Design with Adobe Illustrator",
     price: "Rp. 300.000",
     buy: "Beli Kelas",
-    delay: "600",
+    delay: "900",
   },
   {
     id: 7,
@@ -130,7 +130,7 @@ export const semuaKelas = [
     title: "Design Vektor with Corel Draw CC for Beginner",
     price: "Rp. 340.000",
     buy: "Beli Kelas",
-    delay: "",
+    delay: "300",
   },
   {
     id: 8,
@@ -143,7 +143,7 @@ export const semuaKelas = [
     title: "UI UX Design with Adobe XD for Beginner",
     price: "Rp. 400.000",
     buy: "Beli Kelas",
-    delay: "300",
+    delay: "600",
   },
   {
     id: 9,
@@ -156,7 +156,7 @@ export const semuaKelas = [
     title: "Mastering Mobile Developer with Flutter",
     price: "Rp. 320.000",
     buy: "Beli Kelas",
-    delay: "600",
+    delay: "900",
   },
 ];
 

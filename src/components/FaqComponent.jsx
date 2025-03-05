@@ -8,10 +8,10 @@ const FaqComponent = () => {
       <Container>
         <Row>
           <Col>
-            <h2 className="text-center fw-bold">Pertanyaan yang sering ditanyakan</h2>
+            <h2 className="text-center fw-bold animate__animated animate__fadeInUp h2asli">Pertanyaan yang sering ditanyakan</h2>
           </Col>
         </Row>
-        <Row className="row-cols-lg-2 row-cols-1 g-4 pt-5 --animate-delay: 0.5s;">
+        <Row className="row-cols-lg-2 row-cols-1 g-4 pt-5 ">
           {faq.map((data)=>{
             return(
               <Col key={data.id}>
