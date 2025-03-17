@@ -94,7 +94,8 @@ header {
     width : 400px;
     display: block;
     margin-inline : auto;
-  }}
+  }
+}
   @media screen and (max-width : 575px){
     .homepage .header-box h1{
       font-size: 3rem;
@@ -138,7 +139,7 @@ header {
 
 .homepage .kelas .row:nth-child(2){
   display : grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   padding-inline: 10px;
 }
@@ -165,7 +166,11 @@ header {
 .homepage .kelas .row:nth-child(3){
   padding-top: 100px;
 }
-
+@media screen and (max-width: 1200px){
+  .homepage .kelas .row:nth-child(2){
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
 /* Kelas Page */
 
 .kelas-page.kelas{
@@ -202,7 +207,7 @@ header {
 
 .kelas-page .kelas .row:nth-child(2){
   display : grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   padding-inline: 10px;
 }
@@ -224,6 +229,11 @@ header {
   color: var(--color-text);
   font-weight: bold;
   line-height: 1.5;
+}
+@media screen and (max-width: 1200px){
+  .kelas-page .kelas .row:nth-child(2){
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
 
 /* HOMEPAGE TESTIMONIAL */
